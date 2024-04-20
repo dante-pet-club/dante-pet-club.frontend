@@ -1,1 +1,33 @@
 // app global css in SCSS form
+// app global css in SCSS form
+// body {
+//   // background-color: #2c2a2a;
+//   // background-image: url("src/assets/background/sepia_3_us.png");
+//   // background-size: contain;
+//     // background-position: center;
+
+// }
+.text-brand {
+color: $tertiary !important;
+}
+.bg-brand {
+background: $primary !important;
+}
+.text-primary {
+color: $primary !important;
+}
+.bg-primary {
+background: $primary !important;
+}
+.text-secondary {
+color: $secondary !important;
+}
+.bg-secondary {
+background: $secondary !important;
+}
+.text-tertiary {
+color: $tertiary !important;
+}
+.bg-tertiary {
+background: $tertiary !important;
+}
