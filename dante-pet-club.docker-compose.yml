@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  frontend:
+    container_name: frontend
+    image: ghcr.io/alvarohc777/aryascrew:v.0.1
+
+    ports:
+      - 443:443
+      - 80:80
+
+    entrypoint: ["nginx", "-g", "daemon off;"]
